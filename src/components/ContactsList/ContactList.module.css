@@ -1,0 +1,31 @@
+.phonebook__list {
+    font-weight: 600;
+    margin-left: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.phonebook__item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.phonebook__delete {
+    display: block;
+    margin-left: 10px;
+    width: 70px;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: transparent;
+    border-radius: 3px;
+}
